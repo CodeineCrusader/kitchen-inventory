@@ -1,6 +1,6 @@
 import mysql.connector
 import customtkinter
-import dotenv
+from dotenv import load_dotenv
 import os
 import logging
 
@@ -10,7 +10,6 @@ ENV_dbHost = os.getenv('DB_HOST')
 ENV_dbUser = os.getenv('DB_USER')
 ENV_dbDatabase = os.getenv('DB_DATABASE')
 ENV_dbPassword = os.getenv('DB_PASSWORD')
-
 
 class dbConnection():
     def __init__(self):
