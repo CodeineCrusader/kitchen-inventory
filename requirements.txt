@@ -2,6 +2,6 @@ mysql-connector-python
 customtkinter
 flake8
 pytest
-dotenv
+python-dotenv
 os
 logging
